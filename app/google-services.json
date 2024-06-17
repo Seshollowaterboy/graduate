@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "187883874053",
+    "project_id": "appfinancialaccounting",
+    "storage_bucket": "appfinancialaccounting.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187883874053:android:3f623123ec6bfcce6e796c",
+        "android_client_info": {
+          "package_name": "com.example.financial_accounting"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAe_ph2DTpmjIcimcQqFDdf0gW8V2VA138"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/currencyExchange"
+            android:enabled="true"
+            android:icon="@drawable/free_icon_loss"
+            android:title="Статистика расходов" />
+        <item
+            android:id="@+id/statsEarning"
+            android:enabled="true"
+            android:icon="@drawable/free_icon_business_and_finance_1773345"
+            android:title="Статистика доходов" />
+        <item
+            android:id="@+id/budget"
+            android:enabled="true"
+            android:icon="@drawable/free_icon_ruble_7222358"
+            android:title="Бюджет" />
+        <item
+            android:id="@+id/family"
+            android:enabled="true"
+            android:icon="@drawable/free_icon_team_4185325"
+            android:title="Семья" />
+        <item
+            android:id="@+id/shoppingBag"
+            android:enabled="true"
+            android:icon="@drawable/free_icon_categories"
+            android:title="Категории расходов" />
+        <item
+            android:id="@+id/shoppingCart"
+            android:enabled="true"
+            android:icon="@drawable/free_icon_parchment_1991976"
+            android:title="История расходов" />
+        <item
+            android:id="@+id/monetization"
+            android:enabled="true"
+            android:icon="@drawable/free_icon_salary_7308258"
+            android:title="Категории доходов" />
+        <item
+            android:id="@+id/earnHistory"
+            android:enabled="true"
+            android:icon="@drawable/free_icon_plan_1372550"
+            android:title="История доходов" />
+</menu>

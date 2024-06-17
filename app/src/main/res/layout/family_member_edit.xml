@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/FieldsLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginTop="12dp">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/NameMemberCurrent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Имя"
+        android:layout_weight="1">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/NameMemberEditCurrent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:inputType="textPersonName"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="20dp"
+        android:layout_height="0dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/StatusMemberCurrent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Степень родства"
+        android:layout_weight="1.5">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/StatusMemberEditCurrent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:inputType="textPersonName"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="20dp"
+        android:layout_height="0dp"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/RemoveMemberButtonCurrent"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@id/AddMemberButton"
+        android:src="@drawable/remove"
+        app:tint="@color/white"
+        android:backgroundTint="@color/greenAscent"
+        android:contentDescription="RemoveFamilyMember" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
